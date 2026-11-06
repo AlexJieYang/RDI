@@ -30,7 +30,7 @@ Figures render in Jupyter. Explicit file exports use the configured output direc
 
 ## Methods
 
-The notebooks use paper-level metrics, including RD, and align APS/MAG records by `id`. Field groups use integer division of the source field code by ten. Kernel-density plots display density. Summary-table exports distinguish all papers, the upper citation group, and the remaining papers.
+The notebooks use paper-level metrics, including RD, and align APS/MAG records by `id`. Field groups use integer division of the source field code by ten. Year-comparison figures use the 1980–1989, 1990–1999 and 2000–2009 publication cohorts. Kernel-density plots display density. Summary-table exports distinguish all papers, the upper citation group, and the remaining papers.
 
 Bootstrap intervals use full-size resamples of finite observations and deterministic random generators.
 
