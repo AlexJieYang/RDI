@@ -1,0 +1,32 @@
+{
+  "papers": {
+    "required_columns": [
+      "id",
+      "Field",
+      "year",
+      "outdegree",
+      "indegree",
+      "ni",
+      "nj",
+      "nk",
+      "rnk",
+      "CD",
+      "D",
+      "RD",
+      "h",
+      "pagerank",
+      "if Prize"
+    ],
+    "description": "Processed APS paper-level metrics, including precomputed RD. Field uses two-digit PACS-style codes grouped by integer division by ten."
+  },
+  "mag_papers": {
+    "required_columns": [
+      "id",
+      "Disruption",
+      "Atyp_Median_Z",
+      "Reference_Count",
+      "Citation_Count"
+    ],
+    "description": "MAG metrics keyed by the same paper id as papers; identifiers must be unique."
+  }
+}
